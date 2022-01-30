@@ -1,5 +1,5 @@
 $('#button').click(function () {
-    let data = $('#data').val()
+    var data = $('#data').val()
 
     const key = 'H7lwDc9BBy04RuCTFn8KV5z8FZXX21QTOxwtuEQF'
 
@@ -13,7 +13,7 @@ $('#button').click(function () {
         type: 'GET',
         url: `https://api.nasa.gov/planetary/apod?api_key=${key}&date=${data}`,
         success: function (response) {
-            exibeConteudo(response)
+            exibirConteudo(response)
         },
         error: function () {
             alert(
@@ -23,20 +23,20 @@ $('#button').click(function () {
     })
 })
 
-function exibeConteudo(response) {
-    let image = $('#foto')
-    let video = $('#video')
+function exibirConteudo(response) {
+    var imagem = $('#foto')
+    var video = $('#video')
 
     if (response.media_type == 'image') {
-        image.removeClass('visibility')
+        imagem.removeClass('visibility')
         video.addClass('visibility')
     } else if (response.media_type == 'video') {
         video.removeClass('visibility')
         image.addClass('visibility')
     }
 
-    $('#picTitle').text(response.title)
-    image.attr('src', `${response.url}`)
+    $('#titulo').text(response.title)
+    imagem.attr('src', `${response.url}`)
     video.attr('src', `${response.url}`)
     $('#text').text(response.explanation)
 }
