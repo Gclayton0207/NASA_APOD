@@ -36,7 +36,7 @@ function exibirConteudo(response) {
     }
 
     $('#titulo').text(response.title)
-    imagem.attr('src', `${response.url}`)
+    image.attr('src', `${response.url}`)
     video.attr('src', `${response.url}`)
     $('#text').text(response.explanation)
 }
