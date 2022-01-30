@@ -81,7 +81,7 @@ main {
 }
 
 #text {
-    display: block;
+  display: block;
   margin: 5% 0;
   padding: 2em;
   font-size: 1.5em;
@@ -96,11 +96,10 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  
 }
 
 footer p {
-    padding: 10px 0;
+  padding: 10px 0;
   font-size: 15px;
 }
 
@@ -113,19 +112,11 @@ footer p {
     background: url("walpaperMobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
   }
 
   header h1 {
     padding: 2rem;
   }
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
 
   #data {
     margin-top: 3rem;
@@ -137,7 +128,6 @@ footer p {
   #content {
     flex-direction: column;
     align-items: center;
-
     margin: 5% auto;
   }
 
@@ -155,23 +145,21 @@ footer p {
     margin: 8% auto;
   }
 
+  #video {
+    height: 400px;
+    width: 600px;
+  }
 
-#video {
-  height: 400px;
-  width: 600px;
-}
+  #button:hover {
+    transform: none;
+  }
 
-#button:hover {
-  transform: none;
-}
-
-footer {
-  
+  footer {
     text-align: center;
     background: #f73d23;
     padding: 15px 0;
     width: 100%;
     position: fixed;
     bottom: 0;
-}
+  }
 }
