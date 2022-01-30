@@ -24,15 +24,15 @@ $('#button').click(function () {
 })
 
 function exibirConteudo(response) {
-    var imagem = $('#foto')
+    var image = $('#foto')
     var video = $('#video')
 
     if (response.media_type == 'image') {
-        imagem.removeClass('visibility')
+        image.removeClass('visibility')
         video.addClass('visibility')
     } else if (response.media_type == 'video') {
         video.removeClass('visibility')
-        imagem.addClass('visibility')
+        image.addClass('visibility')
     }
 
     $('#titulo').text(response.title)
