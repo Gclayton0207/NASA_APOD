@@ -17,7 +17,7 @@ $('#button').click(function () {
         },
         error: function () {
             alert(
-                'Selecione uma data valida! As imagens estão disponíveis desde 16/06/1995 até o dia de hoje!'
+                'Erro na API, por favor tente novamente. Recarregue a pagina ou mude a data, datas disponiveis: 16/06/1995 até o dia de hoje!'
             )
         }
     })
