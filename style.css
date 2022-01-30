@@ -68,8 +68,8 @@ main {
 }
 
 #titulo {
-  margin-top:5%;
-  padding: 5rem;
+  margin-top:2%;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -156,7 +156,7 @@ footer p {
   }
 
   #text {
-    padding: 1em;
+    
     font-size: 1em;
     height: 100%;
     margin: 8% auto;
