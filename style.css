@@ -89,7 +89,18 @@ main {
   width: 100%;
 }
 
+footer {
+  text-align: center;
+  padding: 25px 0;
+  width: 100%;
+  color: #f73d23;
+  bottom: 0;
+}
 
+footer p {
+  padding: 25px 0;
+  font-size: 15px;
+}
 
 @media (max-width: 700px) {
   body {
