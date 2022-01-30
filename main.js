@@ -41,4 +41,3 @@ function exibirConteudo(response) {
     $('#text').text(response.explanation)
 }
 
-$('#button').click()

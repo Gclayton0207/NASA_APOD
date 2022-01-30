@@ -129,7 +129,7 @@ footer p {
   #content {
     flex-direction: column;
     align-items: center;
-    margin: 5% auto;
+   
   }
 
   #foto {
@@ -148,7 +148,7 @@ footer p {
 
   #video {
     height: 400px;
-    width: 600px;
+    width: 400px;
   }
 
   #button:hover {
