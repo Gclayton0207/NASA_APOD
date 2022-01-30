@@ -32,7 +32,7 @@ function exibirConteudo(response) {
         video.addClass('visibility')
     } else if (response.media_type == 'video') {
         video.removeClass('visibility')
-        image.addClass('visibility')
+        imagem.addClass('visibility')
     }
 
     $('#titulo').text(response.title)
