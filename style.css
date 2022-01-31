@@ -82,9 +82,9 @@ main {
 }
 
 
-#video {
+iframe {
   height: 500px;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -148,13 +148,6 @@ footer p {
    
   }
 
-  #foto {
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-
   #text {
     
     font-size: 1em;
@@ -162,9 +155,10 @@ footer p {
     margin: 8% auto;
   }
 
-  #video {
+  iframe {
     height: 400px;
-    width: 400px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   #button:hover {
