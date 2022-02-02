@@ -6,18 +6,7 @@
  <br />
   <p allign="center">
      Projeto desenvolvido por <a class="credits" href="https://www.linkedin.com/in/giovanni-clayton/" target="_blank">Giovanni Clayton</a> como projeto do Módulo 2 do curso de Desenvolvedor Web FullStack da <a class="credits" href="https://www.resilia.com.br" target="_blank">Resilia Educação</a>
-      <p allign="center">
-  <a href="#sobre"> Sobre </a> |
-  <a href="#historia"> Como utilizar </a> |
-  <a href="#rodando-o-projeto"> Acessando o projeto </a> |  
-  <a href="#tecnologias-utilizadas"> Tecnologias utilizadas </a>      
-       <br />
-    <br />
-    <h1 allign="center">
-   
- </h1>
-  </p>
-</p>
+     
 
 # Sobre
 
